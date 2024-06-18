@@ -1,0 +1,76 @@
+body {
+	font-family: Rubik, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #F4F9F0;
+}
+
+header {
+	background-color: #B3D89C;
+	padding: 20px;
+	text-align: center;
+}
+
+main {
+	padding: 20px;
+	display: flex;
+}
+
+section {
+	margin: 20px;
+}
+
+h1 {
+	font-family: Licorice, sans-serif;
+	font-size: 8em;
+}
+
+#reviews-section {
+	flex-grow: 2;
+}
+
+#review-form-section,
+#reviews-section {
+	margin-bottom: 20px;
+}
+
+#review-form label,
+#review-form input,
+#review-form textarea,
+#review-form select,
+#review-form button {
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+}
+
+button {
+	background-color: #4E4187;
+	font-family: Rubik, sans-serif;
+	color: white;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #C1BADE;
+	color: black;
+}
+
+#reviews-list {
+	margin-top: 20px;
+	list-style-type: none;
+	}
+
+
+.review-item {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.review-item:hover {
+	background-color: #f9f9f9;
+}

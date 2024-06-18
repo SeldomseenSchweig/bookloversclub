@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Book Lovers Forum</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>📚 Book Lovers Forum</h1>
+    </header>
+    <main>
+        <section id="review-form-section">
+            <h2>Post Your Review</h2>
+            <form id="review-form">
+                <label for="book-title">Book Title:</label>
+                <input type="text" id="book-title" name="book-title" required>
+                <label for="review-text">Your Review:</label>
+                <textarea id="review-text" name="review-text" required></textarea>
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <button type="submit">Post Review</button>
+            </form>
+        </section>
+        <section id="reviews-section">
+            <h2>Reviews</h2>
+            <div id="reviews-list">
+                <!-- Reviews will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
